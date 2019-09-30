@@ -8,8 +8,8 @@ function Items({ company }) {
         {company.map(comp => (
           <div>
             <h6>
-              🏢 {comp.name}
-              <span className="text-muted lead float-right">
+              <span role="img">🏢</span> {comp.name}
+              <span className="text-muted d-inline lead float-right">
                 {comp.duration}
               </span>
             </h6>

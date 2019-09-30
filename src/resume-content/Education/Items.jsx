@@ -7,7 +7,7 @@ function Items({ education }) {
         {education.map(edu => (
           <div>
             <h6>
-              🎓 {edu.name}
+              <span role="img">🎓</span> {edu.name}
               <span className="text-muted lead float-right">
                 {edu.duration}
               </span>
