@@ -9,3 +9,33 @@ h3 {
 body {
   background: #333 !important;
 }
+
+.font-small {
+  font-size: 0.9rem;
+}
+
+.skills-wrapper {
+  padding: 3rem;
+}
+
+/* if the browser is <=768px then kick these styles in below*/
+@media (max-width: 768px) {
+  .heading-util {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+  .profile-para {
+    font-size: 0.8rem;
+  }
+  .font-small {
+    font-size: 0.6rem !important;
+  }
+
+  .skills-wrapper {
+    padding: 0.8rem;
+  }
+  .duration {
+    float: none;
+    display: block;
+  }
+}

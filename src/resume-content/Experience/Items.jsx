@@ -9,11 +9,11 @@ function Items({ company }) {
           <div>
             <h6>
               <span role="img">🏢</span> {comp.name}
-              <span className="text-muted d-inline lead float-right">
+              <span className="font-small duration text-muted d-inline lead float-right">
                 {comp.duration}
               </span>
             </h6>
-            <span className="text-muted pb-2">{comp.desc}</span>
+            <span className="font-small text-muted pb-2">{comp.desc}</span>
             <hr />
           </div>
         ))}

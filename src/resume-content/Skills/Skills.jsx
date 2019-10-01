@@ -1,11 +1,12 @@
 import React from "react";
 import Heading from "../utils/Heading";
 import Items from "./Items";
+import "./Skills.styles.css";
 
 function Skills() {
   return (
     <div className="col-md-6 ">
-      <div className="p-5 mt-2 rounded bg-white">
+      <div className="skills-wrapper mt-2 rounded bg-white">
         <Heading name="Skills" />
         <div className="d-flex justify-content-start">
           <Items

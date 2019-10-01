@@ -8,11 +8,11 @@ function Items({ education }) {
           <div>
             <h6>
               <span role="img">🎓</span> {edu.name}
-              <span className="text-muted lead float-right">
+              <span className="font-small duration text-muted lead float-right">
                 {edu.duration}
               </span>
             </h6>
-            <span className="text-muted pb-2">{edu.desc}</span>
+            <span className="font-small text-muted pb-2">{edu.desc}</span>
             <hr />
           </div>
         ))}

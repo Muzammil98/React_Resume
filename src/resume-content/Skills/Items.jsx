@@ -12,7 +12,7 @@ function Items({ names, stars }) {
         </ul>
       </div>
       <div className="font-small">
-        <ul>
+        <ul className="dots">
           {stars.map(star => (
             <li>{star}</li>
           ))}
