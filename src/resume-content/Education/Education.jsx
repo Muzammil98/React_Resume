@@ -6,7 +6,7 @@ import Items from "./Items";
 function Education() {
   return (
     <div className="col-md-6">
-      <div className="p-5 mt-2 rounded bg-white">
+      <div className="p-5 mt-2 rounded bg-light">
         <Heading name="Education" />
         <div className="d-flex justify-content-between">
           <Items

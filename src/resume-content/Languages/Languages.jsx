@@ -9,16 +9,16 @@ import flagS from "./spain.svg";
 function Languages() {
   return (
     <div className="col-md-6">
-      <div className="p-5 mt-2 rounded bg-white">
+      <div className="p-5 mt-2 rounded bg-light">
         <Heading name="Languages"></Heading>
         <div className="d-flex p-2 text-muted justify-content-between">
-          <Items lang={
-            [
+          <Items
+            lang={[
               { src: flagP, title: "Urdu" },
               { src: flagU, title: "English" },
               { src: flagS, title: "Spainish" }
-            ]
-          } />
+            ]}
+          />
         </div>
       </div>
     </div>

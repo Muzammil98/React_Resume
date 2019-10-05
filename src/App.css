@@ -17,7 +17,6 @@ body {
 .skills-wrapper {
   padding: 3rem;
 }
-
 /* if the browser is <=768px then kick these styles in below*/
 @media (max-width: 768px) {
   .heading-util {
@@ -37,5 +36,9 @@ body {
   .duration {
     float: none;
     display: block;
+  }
+  .header-img {
+    height: 100px;
+    width: 100px;
   }
 }

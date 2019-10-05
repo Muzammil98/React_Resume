@@ -13,6 +13,7 @@ import Social from "./resume-content/Social";
 // Utils
 import Card from "./resume-content/utils/Card";
 import CardGrid from "./resume-content/utils/CardGrid";
+import Header from "./Header";
 
 function Resume() {
   return (

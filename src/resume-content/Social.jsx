@@ -2,7 +2,7 @@ import React from "react";
 
 function Social() {
   return (
-    <div className="p-4 mt-2 text-muted bg-white d-flex justify-content-between">
+    <div className="p-4 mt-2 text-muted bg-light d-flex justify-content-between">
       <span>
         <i class="fab text-danger fa-2x fa-instagram"></i>
         <span className="d-none d-md-inline">#JohnDoe</span>

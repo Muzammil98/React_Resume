@@ -6,7 +6,7 @@ import Items from "./Items";
 function Certificates() {
   return (
     <div className="col-md-6">
-      <div className="p-5 mt-2 rounded bg-white">
+      <div className="p-5 mt-2 rounded bg-light">
         <Heading name="Certificates" />
         <div className="d-flex justify-content-start flex-column">
           <Items
